@@ -1,0 +1,84 @@
+
+@import url('https://fonts.google.com/specimen/Red+Hat+Display#standard-styles');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+	background-color: #155263;
+}
+
+header {
+	background-color: #ff6f3c;
+	display: grid;
+	grid-template-areas: "img h1";
+}
+
+header > img {
+	grid-area: img;
+	margin: 1em 0;
+}
+
+header > h1 {
+	font-size: 3em;
+	color: white;
+	grid-area: h1;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+section {
+	text-align: center;
+}
+
+.btn {
+	margin: 1.5em;
+	padding: 0.6em;
+	font-size: 1.2em;
+	border: none;
+	color: white;
+	background-color: transparent;
+	cursor: pointer;
+	position: relative;
+}
+
+.btn:hover::before {
+	width: 100%;
+}
+
+.btn::before {
+	content: '';
+	height: 3px;
+	width: 0;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transition: width 0.3s;
+}
+
+#timer > h1 {
+	font-size: 8.5em;
+	color: white;
+	font-weight: normal;
+}
+
+.btn2 {
+  color: white !important;
+  margin: 1.2em;
+  font-size: 1.2em;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid #ff6f3c;
+  border-radius: 0.2em;
+  transition: all 0.5s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background: #ff6f3c;
+  color: #fff !important;
+}

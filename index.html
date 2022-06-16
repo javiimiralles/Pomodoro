@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="code.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<title>Método Pomodoro</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.png" width="160" height="160">
+			<h1>MÉTODO POMODORO</h1>
+		</header>
+		<section>
+			<button class="btn" id="pomodoro" onclick="modoPomodoro();">Pomodoro</button>
+			<button class="btn" id="break" onclick="modoDescanso();">Descanso</button>
+			<button class="btn" id="long-break" onclick="modoDescansoLargo();">Descanso largo</button>
+		</section>
+		<section id="timer">
+			<h1>25:00</h1>
+		</section>
+		<section id="control">
+			<button class="btn2" id="start" onclick="cuentaAtras();">Iniciar</button>
+			<button class="btn2" id="start" onclick="reiniciaTimer();">Reiniciar</button>
+		</section>
+	</body>
+</html>
