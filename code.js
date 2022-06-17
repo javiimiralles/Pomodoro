@@ -4,6 +4,7 @@
 let iniciado = false; //booleano para saber si el timer está iniciado
 sessionStorage.setItem('modo','pomodoro');
 let min = 25, seg=0;
+
 function modoPomodoro() {
 	let timer = document.querySelector('#timer > h1');
 

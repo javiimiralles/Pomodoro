@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="code.js"></script>
 		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="css/fontello.css">
 		<title>Método Pomodoro</title>
 	</head>
 	<body>
@@ -12,6 +13,21 @@
 			<img src="images/logo.png" width="160" height="160">
 			<h1>MÉTODO POMODORO</h1>
 		</header>
+		<div class="rrss">
+			<div id="ig"><a href="https://instagram.com/javiimiralles" class="icon-instagram"></a></div>
+			<br>
+			<div id="tw"><a href="https://twitter.com/javiimiralles_" class="icon-twitter"></a></div>
+		</div>
+		<nav>
+            <label for="config"><span class="icon-cog"></label>
+            <input type="checkbox" id="config">
+            <ul id="barra-lateral">
+            	<li>Pomodoro</li>
+            	<li><input type="range" value="25" minlength="1" maxlength="25" step="1"></li>
+            	<li>Descanso<input type="range" value="5" minlength="1" maxlength="5" step="1"></li>
+            	<li>Descanso largo<input type="range" value="15" minlength="1" maxlength="15" step="1"></li>
+            </ul>
+        </nav>
 		<section>
 			<button class="btn" id="pomodoro" onclick="modoPomodoro();">Pomodoro</button>
 			<button class="btn" id="break" onclick="modoDescanso();">Descanso</button>
@@ -20,9 +36,9 @@
 		<section id="timer">
 			<h1>25:00</h1>
 		</section>
-		<section id="control">
+		<section>
 			<button class="btn2" id="start" onclick="cuentaAtras();">Iniciar</button>
-			<button class="btn2" id="start" onclick="reiniciaTimer();">Reiniciar</button>
+			<button class="btn2" onclick="reiniciaTimer();">Reiniciar</button>
 		</section>
 	</body>
 </html>

@@ -33,6 +33,63 @@ section {
 	text-align: center;
 }
 
+.rrss {
+	position: fixed;
+	top: 350px;
+	z-index: 100;
+	left: 0;
+}
+
+#ig > a {
+	background: #cd486b;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+#ig > a:hover, #tw > a:hover {
+	background: black;
+	padding: 10px 25px;
+}
+
+#tw > a {
+	background: #55acee;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.icon-cog {
+	border: none;
+	background-color: transparent;
+	color: white;
+	display: inline-block;
+	float: left;
+	margin-left: 0.2em;
+	font-size: 1.3em;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#barra-lateral {
+    list-style-type: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s;
+}
+
+#barra-lateral > li {
+    padding: .5em;
+}
+
+#config{
+    display: none;
+ }
+
+#config:checked + ul{
+    max-height: 10em;
+}
+
 .btn {
 	margin: 1.5em;
 	padding: 0.6em;
