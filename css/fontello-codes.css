@@ -1,4 +1,6 @@
 
 .icon-cog:before { content: '\e800'; } /* '' */
+.icon-cancel-alt:before { content: '\e801'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-sliders:before { content: '\f1de'; } /* '' */

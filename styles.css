@@ -33,9 +33,31 @@ section {
 	text-align: center;
 }
 
+.icon-sliders {
+	float: left;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	vertical-align: center;
+	background-color: white;
+	cursor: pointer;
+	margin-top: 1.2em;
+	margin-left: 0.5em;
+	font-size: 1.3em;
+	color: #ff6f3c !important;
+}
+
+.icon-sliders:hover {
+	color: #ff6f3c !important;
+	box-shadow: 0 4px 16px white;
+	transition: all 0.2s ease;
+}
+
 .rrss {
 	position: fixed;
-	top: 350px;
+	top: 500px;
 	z-index: 100;
 	left: 0;
 }
